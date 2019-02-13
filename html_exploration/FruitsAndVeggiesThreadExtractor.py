@@ -4,8 +4,6 @@
 import requests
 # import scrapy to develop the Selectors that extract the data we want, to prove they work
 import scrapy
-# TODO Remove htmltotext?
-from pprint import pprint
 # we import scrapy.selector as Selector and remove_tags for use later
 from scrapy.selector import Selector
 from scrapy.utils.markup import remove_tags
