@@ -43,7 +43,7 @@ PROXY = 'http://localhost:8888/?noconnect'
 
 # SCRAPOXY
 API_SCRAPOXY = 'http://localhost:8889/api'
-API_SCRAPOXY_PASSWORD = '<SCRAPOXY_PASSWORD>'
+API_SCRAPOXY_PASSWORD = 'commander123' # The password I chose when running commander
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapoxy.downloadmiddlewares.proxy.ProxyMiddleware': 100,
@@ -89,7 +89,7 @@ ITEM_PIPELINES = {
 }
 
 MONGODB_URI = "localhost"
-MONGODB_DB = "scrapy_test"
+MONGODB_DB = "fruitsandveggies"
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -9,7 +9,7 @@ import pymongo
 
 class ForumSpiderPipeline(object):
     # the DB collection to use (within the database name)
-    collection_name = 'scrapy_threads'
+    collection_name = 'threads'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri
