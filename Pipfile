@@ -9,8 +9,22 @@ verify_ssl = true
 scrapy = "*"
 pymongo = "*"
 scrapoxy = "*"
+#spacy = "*"
+#cymem = "<2.1.0"
+#preshed = "<2.1.0"
+#thinc = "<7.1.0"
+#blis = "<0.3.0"
+#murmurhash = "<1.1.0"
+#wasabi = "<1.1.0"
+#srsly = "<1.1.0"
+# Third-party dependencies
+#plac = "<1.0.0"
+#tqdm = "<5.0.0"
+#numpy = "*"
+#requests = "<3.0.0"
 spacy = "*"
+#jsonschema = "<3.0.0"
 en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz"}
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
